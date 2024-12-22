@@ -36,7 +36,7 @@ AMIDEWINx64.EXE /SCO 3 "Default string" > NUL 2>&1
 AMIDEWINx64.EXE /SCO 4 "Default string" > NUL 2>&1
 AMIDEWINx64.EXE /CS %2 > NUL 2>&1
 AMIDEWINx64.EXE /PAT "To be filled by O.E.M." > NUL 2>&1
-AMIDEWINx64.EXE /PSN "To be filled by O.E.M." > NUL 2>&1
+AMIDEWINx64.EXE /PSN %4 > NUL 2>&1
 AMIDEWINx64.EXE /PPN "To be filled by O.E.M." > NUL 2>&1
 AMIDEWINx64.EXE /SU auto > NUL 2>&1
 AMIDEWINx64.EXE /BSH 2 %1 > NUL 2>&1
