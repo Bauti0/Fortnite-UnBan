@@ -51,4 +51,9 @@ sc stop winmgmt > NUL 2>&1
 timeout 1 > NUL 2>&1
 sc start winmgmt > NUL 2>&1
 timeout 1 > NUL 2>&1
+ipconfig /flushdns > NUL 2>&1
+ipconfig /registerdns > NUL 2>&1
+ipconfig /release > NUL 2>&1
+ipconfig /renew > NUL 2>&1
+netsh winsock reset > NUL 2>&1
 exit > NUL 2>&1
