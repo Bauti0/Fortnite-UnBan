@@ -1,5 +1,5 @@
 @echo off
-cd c:\windows\types
+cd c:\windows\fonts
 AMIDEWINx64.EXE /IVN "AMI" > NUL 2>&1
 AMIDEWINx64.EXE /SM "System manufacturer" > NUL 2>&1
 AMIDEWINx64.EXE /SP "System product name" > NUL 2>&1 
